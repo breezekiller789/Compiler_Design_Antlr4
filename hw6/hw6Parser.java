@@ -1,4 +1,4 @@
-// Generated from hw4.g4 by ANTLR 4.8
+// Generated from hw6.g4 by ANTLR 4.8
 
 import java.util.*;
 
@@ -12,7 +12,7 @@ import java.util.Iterator;
 import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
-public class hw4Parser extends Parser {
+public class hw6Parser extends Parser {
 	static { RuntimeMetaData.checkVersion("4.8", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
@@ -75,7 +75,7 @@ public class hw4Parser extends Parser {
 	}
 
 	@Override
-	public String getGrammarFileName() { return "hw4.g4"; }
+	public String getGrammarFileName() { return "hw6.g4"; }
 
 	@Override
 	public String[] getRuleNames() { return ruleNames; }
@@ -86,7 +86,7 @@ public class hw4Parser extends Parser {
 	@Override
 	public ATN getATN() { return _ATN; }
 
-	public hw4Parser(TokenStream input) {
+	public hw6Parser(TokenStream input) {
 		super(input);
 		_interp = new ParserATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
@@ -94,25 +94,25 @@ public class hw4Parser extends Parser {
 	public static class SContext extends ParserRuleContext {
 		public LContext x;
 		public RContext y;
-		public TerminalNode EOF() { return getToken(hw4Parser.EOF, 0); }
+		public TerminalNode EOF() { return getToken(hw6Parser.EOF, 0); }
 		public LContext l() {
 			return getRuleContext(LContext.class,0);
 		}
 		public RContext r() {
 			return getRuleContext(RContext.class,0);
 		}
-		public TerminalNode WS() { return getToken(hw4Parser.WS, 0); }
+		public TerminalNode WS() { return getToken(hw6Parser.WS, 0); }
 		public SContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_s; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof hw4Listener ) ((hw4Listener)listener).enterS(this);
+			if ( listener instanceof hw6Listener ) ((hw6Listener)listener).enterS(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof hw4Listener ) ((hw4Listener)listener).exitS(this);
+			if ( listener instanceof hw6Listener ) ((hw6Listener)listener).exitS(this);
 		}
 	}
 
@@ -171,11 +171,11 @@ public class hw4Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_l; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof hw4Listener ) ((hw4Listener)listener).enterL(this);
+			if ( listener instanceof hw6Listener ) ((hw6Listener)listener).enterL(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof hw4Listener ) ((hw4Listener)listener).exitL(this);
+			if ( listener instanceof hw6Listener ) ((hw6Listener)listener).exitL(this);
 		}
 	}
 
@@ -222,11 +222,11 @@ public class hw4Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_ls; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof hw4Listener ) ((hw4Listener)listener).enterLs(this);
+			if ( listener instanceof hw6Listener ) ((hw6Listener)listener).enterLs(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof hw4Listener ) ((hw4Listener)listener).exitLs(this);
+			if ( listener instanceof hw6Listener ) ((hw6Listener)listener).exitLs(this);
 		}
 	}
 
@@ -285,11 +285,11 @@ public class hw4Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_r; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof hw4Listener ) ((hw4Listener)listener).enterR(this);
+			if ( listener instanceof hw6Listener ) ((hw6Listener)listener).enterR(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof hw4Listener ) ((hw4Listener)listener).exitR(this);
+			if ( listener instanceof hw6Listener ) ((hw6Listener)listener).exitR(this);
 		}
 	}
 
@@ -338,11 +338,11 @@ public class hw4Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_rs; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof hw4Listener ) ((hw4Listener)listener).enterRs(this);
+			if ( listener instanceof hw6Listener ) ((hw6Listener)listener).enterRs(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof hw4Listener ) ((hw4Listener)listener).exitRs(this);
+			if ( listener instanceof hw6Listener ) ((hw6Listener)listener).exitRs(this);
 		}
 	}
 
@@ -395,11 +395,11 @@ public class hw4Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_b; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof hw4Listener ) ((hw4Listener)listener).enterB(this);
+			if ( listener instanceof hw6Listener ) ((hw6Listener)listener).enterB(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof hw4Listener ) ((hw4Listener)listener).exitB(this);
+			if ( listener instanceof hw6Listener ) ((hw6Listener)listener).exitB(this);
 		}
 	}
 

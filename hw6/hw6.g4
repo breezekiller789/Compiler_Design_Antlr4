@@ -1,4 +1,4 @@
-grammar hw4;
+grammar hw6;
 @header {
 import java.util.*;
 }

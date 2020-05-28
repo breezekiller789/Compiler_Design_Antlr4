@@ -2,12 +2,15 @@
 
 //  The grammar for Cactus language 
 grammar Cactus;
+@header{
+    import java.util.*;
+}
 
 //  Parser Rule
 program :
-            MAIN LeftParen RightParen LeftBrace declarations statements RightBrace;
+            MAIN LeftParen RightParen LeftBrace {System.out.println("\t.data");} declarations {System.out.println("\t"+".text");System.out.println("main:");} statements RightBrace;
 declarations :
-                INT ID SEMI declarations 
+                INT ID {System.out.println($ID.text + ":" + "\t.word 0");} SEMI declarations 
                 |
                 ;
 statements :

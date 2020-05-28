@@ -1,4 +1,4 @@
-// Generated from hw4.g4 by ANTLR 4.8
+// Generated from hw6.g4 by ANTLR 4.8
 
 import java.util.*;
 
@@ -12,7 +12,7 @@ import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.misc.*;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
-public class hw4Lexer extends Lexer {
+public class hw6Lexer extends Lexer {
 	static { RuntimeMetaData.checkVersion("4.8", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
@@ -81,13 +81,13 @@ public class hw4Lexer extends Lexer {
 	}
 
 
-	public hw4Lexer(CharStream input) {
+	public hw6Lexer(CharStream input) {
 		super(input);
 		_interp = new LexerATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
 
 	@Override
-	public String getGrammarFileName() { return "hw4.g4"; }
+	public String getGrammarFileName() { return "hw6.g4"; }
 
 	@Override
 	public String[] getRuleNames() { return ruleNames; }

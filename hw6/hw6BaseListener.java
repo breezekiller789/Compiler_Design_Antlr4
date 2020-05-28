@@ -1,4 +1,4 @@
-// Generated from hw4.g4 by ANTLR 4.8
+// Generated from hw6.g4 by ANTLR 4.8
 
 import java.util.*;
 
@@ -8,83 +8,83 @@ import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 /**
- * This class provides an empty implementation of {@link hw4Listener},
+ * This class provides an empty implementation of {@link hw6Listener},
  * which can be extended to create a listener which only needs to handle a subset
  * of the available methods.
  */
-public class hw4BaseListener implements hw4Listener {
+public class hw6BaseListener implements hw6Listener {
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterS(hw4Parser.SContext ctx) { }
+	@Override public void enterS(hw6Parser.SContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitS(hw4Parser.SContext ctx) { }
+	@Override public void exitS(hw6Parser.SContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterL(hw4Parser.LContext ctx) { }
+	@Override public void enterL(hw6Parser.LContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitL(hw4Parser.LContext ctx) { }
+	@Override public void exitL(hw6Parser.LContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterLs(hw4Parser.LsContext ctx) { }
+	@Override public void enterLs(hw6Parser.LsContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitLs(hw4Parser.LsContext ctx) { }
+	@Override public void exitLs(hw6Parser.LsContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterR(hw4Parser.RContext ctx) { }
+	@Override public void enterR(hw6Parser.RContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitR(hw4Parser.RContext ctx) { }
+	@Override public void exitR(hw6Parser.RContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterRs(hw4Parser.RsContext ctx) { }
+	@Override public void enterRs(hw6Parser.RsContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitRs(hw4Parser.RsContext ctx) { }
+	@Override public void exitRs(hw6Parser.RsContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterB(hw4Parser.BContext ctx) { }
+	@Override public void enterB(hw6Parser.BContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitB(hw4Parser.BContext ctx) { }
+	@Override public void exitB(hw6Parser.BContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
