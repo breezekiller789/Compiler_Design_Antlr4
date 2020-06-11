@@ -9,6 +9,9 @@ YELLOW = \033[1;33m
 BLUE = \033[1;34m
 NC = \033[1;0m
 
+all : Cactus.g4
+	antlr4 Cactus.g4
+
 clean :
 	@echo "$(YELLOW)Cleaning...$(NC)"
 	rm CactusBaseListener.java CactusLexer.java CactusListener.java Cactus.tokens CactusLexer.tokens CactusBaseListener.class CactusLexer.class CactusListener.class Cactus.interp CactusLexer.interp CactusParser*
