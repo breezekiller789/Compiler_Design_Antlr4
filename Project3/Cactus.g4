@@ -66,9 +66,9 @@ arith_expression1 [int reg] returns [int nreg, int place] :
 arith_term [int reg] returns [int nreg, int place] :
                 x = arith_factor[$reg] y = arith_term1[$x.nreg] {$nreg = $x.nreg;$place = $x.place;};
 arith_term1 [int reg] returns [int nreg, int place] :
-        /* MULTIPLY arith_factor arith_term1 */
-        /* | DIVIDE arith_factor arith_term1 */
-        /* | MODULO arith_factor arith_term1 */
+        MULTIPLY x = arith_factor[$reg] y = arith_term1[$x.nreg] {System.out.printf("mul\t%c%c%d, %c%c%d, %c%c%d\n", '$', 't', $reg-1, '$', 't', $reg-1, '$', 't', $x.place);$nreg = $x.nreg-1; $place = $x.place;}
+        | DIVIDE arith_factor[$reg] arith_term1[$reg]
+        | MODULO arith_factor[$reg] arith_term1[$reg]
         | {$nreg = $reg;}
         ;
 arith_factor [int reg] returns [int nreg, int place] :
