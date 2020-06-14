@@ -4,7 +4,13 @@ main(){
     int s;
     int i;
     read n;
-    if ( n < 1){
+    if ( n < 1 ){
+        if(n==0){
+            read s;
+        }
+        else{
+            return;
+        }fi
         write -1;
         return;
     }
