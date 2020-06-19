@@ -4,12 +4,9 @@ main(){
     /* int s; */
     /* int i; */
     /* read n; */
-    if (n<1 || n==0 && n > 100){
-        write -1;
-        return;
+    if (n<1 && n==0){
     }
     else {
-        s = 0;
     }fi
     /* i = 1; */
     /* while ( i <= n) { */

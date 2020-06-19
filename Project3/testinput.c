@@ -12,7 +12,7 @@ main(){
         s = 0;
     }fi
     i = 1;
-    while ( i <= n) {
+    while ( i <= n ) {
         s = s + i;
         i = i + 1;
     }
